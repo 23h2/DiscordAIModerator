@@ -27,7 +27,7 @@ module.exports = {
                     embeds: [{
                        title: `Verification`,
                        color: 14145282,
-                       description: `Invalid verification code! Please make sure the code is right (It is case sensitive)\n\nConfused? Look in <#1184186039061991524>!`,
+                       description: `Invalid verification code! Please make sure the code is right (It is case sensitive)`,
                     }],
                     ephemeral: true
                 })
@@ -37,7 +37,7 @@ module.exports = {
                 embeds: [{
                    title: `Verification`,
                    color: 14145282,
-                   description: `You not started verification yet! Please run this command without arguments.\n\nConfused? Look in <#1184186039061991524>!`,
+                   description: `You not started verification yet! Please run this command without arguments.`,
                 }],
                 ephemeral: true
             })
@@ -48,7 +48,7 @@ module.exports = {
                 embeds: [{
                    title: `Verification`,
                    color: 6029144,
-                   description: `Your unique verification code is \`${Data["Code"]}\`! Please run the command again using the "verificationcode" argument.\n\nConfused? Look in <#1184186039061991524>!`,
+                   description: `Your unique verification code is \`${Data["Code"]}\`! Please run the command again using the "verificationcode" argument.`,
                 }],
                 ephemeral: true
             })
@@ -57,7 +57,7 @@ module.exports = {
                 embeds: [{
                    title: `Verification`,
                    color: 14145282,
-                   description: `You have already started verification! Make sure to specify the "verificationcode" argument with your code that was previously provided.\n\nConfused? Look in <#1184186039061991524>!`,
+                   description: `You have already started verification! Make sure to specify the "verificationcode" argument with your code that was previously provided.`,
                 }],
                 ephemeral: true
             })
